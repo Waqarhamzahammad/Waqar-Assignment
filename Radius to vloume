@@ -1,0 +1,20 @@
+?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="home"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-25 11:01:10 AM"/>
+        <attribute name="created" value="aG9tZTtERVNLVE9QLUpTTk05T1M7MjAyMy0wOC0yNTsxMDo1OToyNiBBTTsyODEz"/>
+        <attribute name="edited" value="aG9tZTtERVNLVE9QLUpTTk05T1M7MjAyMy0wOC0yNTsxMTowMToxMCBBTTsyOzI5MDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="radius, volume" type="Integer" array="False" size=""/>
+            <input variable="radius"/>
+            <assign variable="volume" expression="(4 / 3) * 3.147 * radius * radius * radius"/>
+            <output expression="volume" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
