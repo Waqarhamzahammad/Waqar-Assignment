@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="home"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-25 10:57:07 AM"/>
+        <attribute name="created" value="aG9tZTtERVNLVE9QLUpTTk05T1M7MjAyMy0wOC0yNTsxMDo1MzoyMCBBTTsyODAx"/>
+        <attribute name="edited" value="aG9tZTtERVNLVE9QLUpTTk05T1M7MjAyMy0wOC0yNTsxMDo1NzowNyBBTTsyOzI5MTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="celsius, x" type="Integer" array="False" size=""/>
+            <input variable="celsius"/>
+            <assign variable="x" expression="celsius * (9/5)"/>
+            <declare name="answer" type="Integer" array="False" size=""/>
+            <assign variable="answer" expression="x + 32"/>
+            <output expression="answer" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
